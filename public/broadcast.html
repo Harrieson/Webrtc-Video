@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Broadcaster</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div class="sidebar-content">
+        <div class="sidebar-label">
+            <span class="material-icons">mic</span>
+            <span>Audio</span>
+        </div>
+    
+        <select id="select_audio"></select>
+    
+        <div class="sidebar-label">
+            <span class="material-icons">photo_camera</span>
+            <span>Camera</span>
+        </div>
+    
+        <select id="select_camera"></select>
+    
+        <div class="sidebar-label">
+            <span class="material-icons">monitor</span>
+            <span>Screen</span>
+        </div>
+    
+        <select id="select_screen"></select>
+
+
+    <video playsinline autoplay muted></video>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/broadcast.js"></script>
+</body>
+
+</html>
